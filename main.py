@@ -6,7 +6,7 @@ from ml_code.pre_processing import preprocess_data
 from ml_code.models import ModelFactory
 from ml_code.train import train_and_evaluate
 from ml_code.metrics import print_metrics
-# from test.unit_test import TestDataLoader
+from tests.unit_test import TestDataLoader
 
 with open('config.json') as config_file:
     config = json.load(config_file)
